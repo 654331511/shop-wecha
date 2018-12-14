@@ -1,0 +1,38 @@
+.checkout_list {
+  padding: 10px 15px 2px 15px;
+  background: #fff;
+  border-bottom: 1rpx solid #eee;
+}
+
+.checkout_list .flow-shopList {
+  padding: 5rpx 0 10rpx;
+  border-bottom: 1rpx solid #eee;
+}
+
+.checkout_list .flow-shopList:last-child {
+  border-bottom: 0;
+}
+
+.flow-header-left {
+  padding-left: 90rpx;
+}
+.switch-view{
+  padding:10rpx 0 0 10rpx;
+  font-size: 34rpx;
+}
+.wx-switch-input{
+    width:80rpx !important;
+    height:36rpx !important;
+    background: #50D2C2 !important;
+    border: #50d2c2 !important; /* 2018-07-18 重置开关边框颜色 */
+}
+/*白色样式（false的样式）*/
+.wx-switch-input::before{
+    width:80rpx !important;
+    height: 36rpx !important;
+}
+/*绿色样式（true的样式）*/
+.wx-switch-input::after{
+    width: 44rpx !important;
+    height: 36rpx !important;
+}
